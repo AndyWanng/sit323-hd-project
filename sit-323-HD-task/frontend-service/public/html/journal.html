@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Traveller - Journal</title>
+    <link rel="stylesheet" type="text/css" href="/css/journal.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body id="home" class="scrollspy">
+<div class="navbar-fixed">
+    <nav class="teal">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="./home.html" class="brand-logo">Smart Traveller</a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="./plan.html">Plan</a></li>
+                    <li><a href="./guide.html">Guide</a></li>
+                    <li><a href="./journal.html">Journals</a></li>
+                    <li><a href="./schedule.html">Schedule</a></li>
+                    <li>
+                        <a class="dropdown-trigger" href="#account" data-target="dropdown1">Account<i class="material-icons right">arrow_drop_down</i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<ul class="sidenav" id="mobile-nav">
+    <li><a href="./plan.html">Plan</a></li>
+    <li><a href="./guide.html">Guide</a></li>
+    <li><a href="./journal.html">Journals</a></li>
+    <li><a href="./schedule.html">Schedule</a></li>
+    <li>
+        <a class="dropdown-trigger" href="#account" data-target="dropdown2">Account<i class="material-icons right">arrow_drop_down</i></a>
+    </li>
+</ul>
+<div id="search" class="section section-search teal darken-1 white-text center scrollspy">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h3>Search</h3>
+                <div class="input-field">
+                    <input type="text" class="white grey-text autocomplete" id="autocomplete-input" placeholder="Grampians, Great Ocean Road, Wilsonprom, ..." oninput="searchJournals()">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="section section-icons lighten-4 center">
+    <div class="container">
+        <div class="row" id="journal-entries">
+        </div>
+    </div>
+</div>
+<a class="waves-effect waves-light btn" onclick="launch()">Create a Journal</a>
+    <div id="pagination" class="center">
+        <ul class="pagination">
+            <li class="disabled" id="prev-page"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="waves-effect" id="next-page"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+    </div>
+</div>
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="./account.html">Profile</a></li>
+    <li><a href="./settings.html">Settings</a></li>
+    <li class="divider"></li>
+    <li><a href="../index.html">Log Out</a></li>
+</ul>
+<ul id="dropdown2" class="dropdown-content">
+    <li><a href="./account.html">Profile</a></li>
+    <li><a href="./settings.html">Settings</a></li>
+    <li class="divider"></li>
+    <li><a href="../index.html">Log Out</a></li>
+</ul>
+
+<div id="journal-modal" class="modal">
+    <div class="modal-content">
+        <h4 id="modal-destination"></h4>
+        <div class="carousel carousel-slider" id="modal-carousel">
+        </div>
+        <p id="modal-description"></p>
+        <p id="modal-comfort"></p>
+        <p id="modal-budget"></p>
+        <p id="modal-rate"></p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="/js/journal.js"></script>
+</body>
+</html>

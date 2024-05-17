@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>Smart Traveller - Plan</title>
+        <link rel="stylesheet" type="text/css" href="/css/plan.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css" type="text/css">
+    </head>
+    <body id="home" class="scrollspy">
+        <div class="navbar-fixed">
+            <nav class="teal">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="./home.html" class="brand-logo">Smart Traveller</a>
+                        <a href="#" data-target="mobile.nav" class="sidenav-trigger">
+                        <i class="material-icons"> menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li>
+                                <a href="./plan.html"> Plan </a>
+                            </li>
+                            <li>
+                                <a href="./guide.html"> Guide </a>
+                            </li>
+                            <li>
+                                <a href="./journal.html"> Journals </a>
+                            </li>
+                            <li>
+                                <a href="./schedule.html"> Schedule </a>
+                            </li>
+                            <li>
+                            <a class="dropdown-trigger" href="#account" data-target="dropdown1">Account<i class="material-icons right">arrow_drop_down</i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div id='map'></div>
+        <ul class="sidenav" id="mobile.nav">
+           <li>
+               <a href="./plan.html"> Plan </a>
+           </li>
+           <li>
+               <a href="./guide.html"> Guide </a>
+           </li>
+           <li>
+               <a href="./journal.html"> Journals </a>
+           </li>
+           <li>
+               <a href="./schedule.html"> Schedule </a>
+           </li>
+           <li>
+           <a class="dropdown-trigger" href="#account" data-target="dropdown2">Account<i class="material-icons right">arrow_drop_down</i></a>
+           </li>
+        </ul>
+
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="./account.html">Profile</a></li>
+            <li><a href="./settings.html">Settings</a></li>
+            <li class="divider"></li>
+            <li><a href="../index.html">Log Out</a></li>
+        </ul>
+
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="./account.html">Profile</a></li>
+            <li><a href="./settings.html">Settings</a></li>
+            <li class="divider"></li>
+            <li><a href="../index.html">Log Out</a></li>
+        </ul>
+
+    <div class="floating-chat" id="floatingChat">
+        <div class="chat-header">
+            Travel Advice
+        </div>
+        <div class="chat-body">
+            <input id="durationInput" type="text" placeholder="Enter trip duration (days)">
+            <button class="btn" onclick="getTripAdvice()">Get Trip Advice</button>
+            <div id="chatContainer">
+            </div>
+        </div>
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> 
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+      <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+        <script src="/js/plan.js"></script>
+    </body>
+</html>

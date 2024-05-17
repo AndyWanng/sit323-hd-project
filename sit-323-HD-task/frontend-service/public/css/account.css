@@ -1,0 +1,132 @@
+body{
+    background-color: #ffffff;
+}
+
+.text-size{
+    font-size: 20px;
+    color: black;
+}
+
+.section-search input {
+    padding: 5px !important;
+    font-size: 18px !important;
+    width: 90% !important;
+    border: #f5f5f5 5px solid !important;
+}
+
+.font{
+    color: rgb(61, 61, 61);
+}
+.brand-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #004d40;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.sidenav a {
+    color: #004d40;
+    font-size: 1.2rem;
+}
+
+.dropdown-content a {
+    color: #004d40;
+}
+
+#user-profile {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#user-profile h4 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #004d40;
+}
+
+.input-field input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.input-field label {
+    font-size: 1.2rem;
+    color: #004d40;
+}
+
+.btn {
+    background-color: #004d40;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #003d33;
+}
+
+.section-icons {
+    margin-top: 50px;
+}
+
+#journal-entries {
+    margin-top: 20px;
+}
+
+#journal-entries .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#journal-entries .card h5 {
+    font-size: 1.5rem;
+    color: #004d40;
+}
+
+#journal-entries .card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.datepicker-modal {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.datepicker-date-display {
+    background-color: #004d40;
+    color: #ffffff;
+}
+
+.datepicker-calendar {
+    background-color: #f9f9f9;
+}
+
+.datepicker-day-button {
+    color: #004d40;
+}
+
+.datepicker-day-button.selected {
+    background-color: #004d40;
+    color: #ffffff;
+}
+
+.datepicker-clear-button, .datepicker-done-button {
+    color: #004d40;
+}
+
+.datepicker-cancel {
+    color: #666;
+}

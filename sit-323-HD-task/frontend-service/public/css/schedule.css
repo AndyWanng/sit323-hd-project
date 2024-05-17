@@ -1,0 +1,153 @@
+body{
+
+}
+
+.font{
+    color: rgb(61, 61, 61);
+}
+.modal-content {
+    text-align: center;
+}
+
+.modal-content h4 {
+    margin-bottom: 20px;
+}
+
+.carousel .carousel-item {
+    width: 100%;
+}
+
+.carousel img {
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-footer {
+    text-align: center;
+}
+
+.btn-flat {
+    background-color: teal;
+    color: white;
+}
+
+.btn-flat:hover {
+    background-color: darkcyan;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-wrapper {
+    padding: 0 20px;
+}
+
+.brand-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #004d40;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.sidenav a {
+    color: #004d40;
+    font-size: 1.2rem;
+}
+
+.dropdown-content a {
+    color: #004d40;
+}
+
+#search {
+    padding: 50px 0;
+}
+
+#search h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#search .input-field input {
+    width: 75%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-icons {
+    margin-top: 50px;
+}
+
+.section-icons .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.section-icons .card:hover {
+    transform: scale(1.05);
+}
+
+.section-icons .card h5 {
+    font-size: 1.5rem;
+    color: #004d40;
+}
+
+.section-icons .card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.waves-effect.waves-light.btn {
+    background-color: #004d40;
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.waves-effect.waves-light.btn:hover {
+    background-color: #003d33;
+}
+
+.modal {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.modal .modal-content {
+    padding: 20px;
+}
+
+.modal .modal-footer {
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+}
+
+.modal .modal-footer a {
+    color: #004d40;
+    font-size: 1.2rem;
+}
+
+.carousel.carousel-slider {
+    border-radius: 8px;
+}
+
+.carousel .carousel-item img {
+    border-radius: 8px;
+}

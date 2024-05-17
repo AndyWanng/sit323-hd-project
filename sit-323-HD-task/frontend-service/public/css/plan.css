@@ -1,0 +1,55 @@
+#map {width: 100%;
+    height: 100vh;}
+
+body { margin: 0; padding: 0; }
+
+.floating-chat {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 300px;
+    max-height: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1000;
+    display: none;
+    flex-direction: column;
+}
+.floating-chat.show {
+    display: flex;
+    animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.chat-header {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.chat-body {
+    padding: 10px;
+    overflow-y: auto;
+    flex: 1;
+}
+.chat-footer {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+.chat-response {
+    position: relative;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.chat-response .close-btn {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+}

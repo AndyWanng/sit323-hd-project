@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>Publish a schedule</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/scheduleForm.css">
+</head>
+<body>
+<div class="row container">
+    <div class="col s12 center heading"><h3>Create a Schedule</h3></div>
+    <br><br>
+    <div class="col s12 center signup"><h5>Schedule Form</h5>
+        <br><br>
+
+        <div id="form1">
+            <div class="col s12 m12">
+                <div class="input-field">
+                    <input id="departure" type="text" class="validate" value="place">
+                    <label for="departure">The Departure</label>
+                </div>
+                <div class="input-field">
+                    <input id="destination" type="text" class="validate" value="place">
+                    <label for="destination">The Destination</label>
+                </div>
+                <div class="input-field ">
+                    <input id="length" type="text" class="validate">
+                    <label for="length">Length of trip</label>
+                </div>
+                <div class="input-field">
+                    <input id="budget" type="text" class="validate">
+                    <label for="budget">Total cost</label>
+                </div>
+                <div class="text-field">
+                    <input id="description" type="text" class="validate">
+                    <label for="description">Description</label>
+                </div>
+                <div class="text-field">
+                    <input id="link" type="text" class="validate">
+                    <label for="link">Additional information(links,etc..)</label>
+                </div>
+                <div class="text-field">
+                    <input id="expectation" type="text" class="validate">
+                    <label for="expectation">Your expectation for this trip</label>
+                </div>
+            </div>
+        </div>
+        <button class="btn waves-effect waves-light" type="submit" onclick='submit()' name="action">Create</button>
+        <a class="btn waves-effect waves-light" onclick='clear()'>Clear</a>
+        <br><br>
+        <a class="btn waves-effect waves-light" onclick="back()">Back</a>
+    </div>
+</div>
+<script src="/js/scheduleForm.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+.section-search input {
+    padding: 5px !important;
+    font-size: 18px !important;
+    width: 90% !important;
+    border: #f5f5f5 5px solid !important;
+}
+
+.font {
+    color: rgb(61, 61, 61);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.card-panel {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-panel h4 {
+    font-size: 20px;
+}
+
+.card-panel p {
+    font-size: 16px;
+    color: #757575;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.nav-wrapper {
+    padding: 0 20px;
+}
+
+.brand-logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #004d40;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.sidenav a {
+    color: #004d40;
+    font-size: 1.2rem;
+}
+
+.dropdown-content a {
+    color: #004d40;
+}
+
+#search {
+    padding: 50px 0;
+}
+
+#search h3 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#search .input-field input {
+    width: 75%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    display: block;
+}
+
+
+#places-row .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+#places-row .card:hover {
+    transform: scale(1.05);
+}
+
+#places-row .card h5 {
+    font-size: 1.5rem;
+    color: #004d40;
+}
+
+#places-row .card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-footer {
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+}
+
+.modal-footer a {
+    color: #004d40;
+    font-size: 1.2rem;
+}
+
+.autocomplete-content li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.autocomplete-content li:hover {
+    background-color: #eee;
+}
+
+.autocomplete-content li .highlight {
+    font-weight: bold;
+}
+
+.modal {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.modal .modal-content {
+    padding: 20px;
+}
+
+.modal .modal-footer {
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+}
+
+.modal .modal-footer a {
+    color: #004d40;
+    font-size: 1.2rem;
+}

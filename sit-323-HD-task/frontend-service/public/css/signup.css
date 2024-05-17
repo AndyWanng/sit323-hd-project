@@ -1,0 +1,29 @@
+
+.heading{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+
+.img{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.signup{
+    font-size: 30px;
+}
+
+.height{
+    margin-top: 10px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+

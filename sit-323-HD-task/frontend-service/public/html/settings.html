@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Smart Traveller - Home</title>
+        <link rel="stylesheet" type="text/css" href="/css/home.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    </head>
+    <body id="home" class="scrollspy">
+    <div class="navbar-fixed">
+            <nav class="teal">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="./home.html" class="brand-logo">Smart Traveller</a>
+                        <a href="#" data-target="mobile.nav" class="sidenav-trigger">
+                        <i class="material-icons"> menu</i>
+                        </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li>
+                                <a href="./plan.html"> Plan </a>
+                            </li>
+                            <li>
+                                <a href="./guide.html"> Guide </a>
+                            </li>
+                            <li>
+                                <a href="./journal.html"> Journals </a>
+                            </li>
+                            <li>
+                                <a href="./schedule.html"> Schedule </a>
+                            </li>
+                            <li>
+                            <a class="dropdown-trigger" href="#account" data-target="dropdown1">Account<i class="material-icons right">arrow_drop_down</i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile.nav">
+           <li>
+               <a href="./plan.html"> Plan </a>
+           </li>
+           <li>
+               <a href="./guide.html"> Guide </a>
+           </li>
+           <li>
+               <a href="./journal.html"> Journals </a>
+           </li>
+           <li>
+               <a href="./schedule.html"> Schedule </a>
+           </li>
+           <li>
+           <a class="dropdown-trigger" href="#account" data-target="dropdown2">Account<i class="material-icons right">arrow_drop_down</i></a>
+           </li>
+        </ul>
+
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="./account.html">Profile</a></li>
+            <li><a href="./settings.html">Settings</a></li>
+            <li class="divider"></li>
+            <li><a href="../index.html">Log Out</a></li>
+        </ul>
+
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="./account.html">Profile</a></li>
+            <li><a href="./settings.html">Settings</a></li>
+            <li class="divider"></li>
+            <li><a href="../index.html">Log Out</a></li>
+        </ul>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <script src="/js/home.js"></script>
+    </body>
+</html>
