@@ -4,13 +4,7 @@ $(document).ready(function(){
 });
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBKO6CwCY-LW_0e6ly7M7IDlODF5jwFjkc",
-    authDomain: "smarttravel-f668c.firebaseapp.com",
-    projectId: "smarttravel-f668c",
-    storageBucket: "smarttravel-f668c.appspot.com",
-    messagingSenderId: "80277755145",
-    appId: "1:80277755145:web:515cc5773c11e8cae02fd8",
-    measurementId: "G-ZSH176JT4Z"
+
 };
 
 firebase.initializeApp(firebaseConfig);
